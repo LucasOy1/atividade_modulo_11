@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 56px;
+    background-color: rgb(207, 57, 31);
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 16px;
+    border-top: 4px solid transparent;
+    position: relative;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 16px;
+}
+
+h2 {
+    color: rgb(207, 57, 31);
+}
+
+.linha1 {
+    padding: 16px 0 0;
+    border-bottom: 2px solid rgb(207, 57, 31);
+}
+
+.linha2 {
+    padding: 16px 0 0;
+    border-bottom: 2px solid rgb(207, 57, 31);
+} 
+
+.sobre {
+    padding-top: 16px;
+    display: flex;
+}
+
+section {
+    padding: 48px 0;
+}
+
+.sobre img {
+    width: 450px;
+    margin-top: 8px;
+    padding-right: 18px;
+}
+
+.sobre_a_loja {
+    margin-bottom: 56px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.lista-guitarras {
+    flex: wrap;
+}
+
+.lista-guitarras li {
+    list-style: none;
+    max-width: 30%;
+}
+
+.lista-guitarras li img {
+    max-width: 100%;
+}
+
+.lista-guitarras li h3 {
+    margin: 16px 0;
+}
+
+.item-central {
+    margin: 0 5%;
+}
+
+.lista-guitarras li button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: rgb(207, 57, 31);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.lista-guitarras li button:hover {
+    background-color: rgb(252, 71, 40);
+}
+
+.lista-guitarras li strong {
+    margin: 16px 0;
+    display: block;
+}
+
