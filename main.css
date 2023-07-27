@@ -179,9 +179,21 @@ section {
         display: flex;
         font-size: 18px;
     }
+
+    .lista-guitarras li {
+        list-style: none;
+        max-width: 30%;  
+    }
     
-    .guitarras {
-        display: flex;
-        grid-template-columns: repeat(2, 100%);
+    .lista-guitarras {
+        display: grid;  
+        grid-template-columns: 1fr 1fr; 
+    }
+
+    .lista-guitarras li {
+        list-style: none;
+        max-width: 136%;
+        margin: 32px 0;
+        padding-right: 32px;
     }
 }
